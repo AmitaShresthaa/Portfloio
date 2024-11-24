@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background-color: var(--bg-page-color);
+}
+
+:root{
+    /* color */
+    /*Light mode  */
+    --bg_color:#95B185;
+    --text-color:black;
+    --border-color: black;
+    --bg-page-color: #C2C4E9;
+    --box-shadow:4px -2px 40px 9px grey;
+    --primary-color: #8cca8c;
+}
+
+.flex-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* Navbar */
+.navbar-container{
+    justify-content: space-between;
+    padding:16px 32px;
+    background-color: var(--bg_color);
+    box-shadow: var(--box-shadow);
+
+}
+
+.logo-name{
+    font-weight:bolder;
+    font-size:2rem;
+}
+
+.line{
+    font-weight: bolder;
+    font-size:2rem;
+    color:var(--primary-color);
+}
+
+.nav-items{
+    list-style-type: none;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color:var(--text-color);
+    
+}
+
+.nav-items a:hover{
+    color: var(--primary-color);
+}
