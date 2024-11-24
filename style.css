@@ -93,7 +93,7 @@ body{
         position: absolute;
         top:4rem;
         left:100vw;
-        transition: left 0.5sec;
+        transition: left 0.5s;
         
     }
 
