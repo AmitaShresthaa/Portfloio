@@ -118,7 +118,6 @@ body{
         left: calc(100vw - 250px);
     }
 
-
     /* #hamburger-menu:not(checked) + .side-menu {
         display:none;
 
@@ -127,3 +126,48 @@ body{
 
 }
 
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.hero-section{
+    background-color: white;
+    border-radius: 12px;
+    max-height: 60vh;
+    margin: 2rem 1rem;
+
+}
+
+.intro-text{
+    color:var(--text-color);
+    padding:8px;
+}
+
+.download-btn{
+    background-color: var(--bg-page-color);
+    color:white;
+    border-radius: 12px;
+    border:none;
+    padding:12px;
+    margin-top: 2rem;
+
+}
+
+.download-btn hover{
+    cursor:pointer;
+}
+
+.profile-image{
+    /* border:2px solid black; */
+    margin:-2rem;
+}
+
+.profile-image img{
+    /* border:2px solid plum; */
+    height:200%;
+    width:80%;
+
+}
