@@ -93,7 +93,7 @@ body{
         position: absolute;
         top:4rem;
         left:100vw;
-        transition: left 0.5sec;
+        transition: left 0.5s;
         
     }
 
@@ -170,4 +170,29 @@ body{
     height:200%;
     width:80%;
 
+}
+
+.summary-section{
+    background-color: var(--bg_color);
+    border:2px solid black;
+    border-radius: 25px;
+    padding: 16px;
+    justify-content: space-around;
+    margin: 40px;
+
+}
+
+.summary-section i{
+    color:white;
+    font-size: 2rem;
+}
+
+.summary-section p{
+    margin:0;
+    color:white;
+    font-weight:bold;
+}
+
+.vertical-line{
+    font-size: 2rem;
 }
